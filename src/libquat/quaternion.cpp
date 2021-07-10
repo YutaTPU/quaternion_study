@@ -48,7 +48,7 @@ quaternion quaternion::operator/(float f) const
 vector3 quaternion::operator*(const vector3& v) const
 {
 	// todo: 実装して下さい
-	return vector3(x * v, y * v, z * v);
+	return this -> vector3(x * v, y * v, z * v);
 }
 
 quaternion quaternion::operator*(const quaternion& rhs) const
